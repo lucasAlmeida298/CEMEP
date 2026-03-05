@@ -17,9 +17,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="3AXLndCHG8iznFiwgmrKtwksPEI" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -31,6 +31,8 @@
     "Application.Exercicio2.executor": "Run",
     "Application.Exercicio3.executor": "Run",
     "Application.Exercicio4.executor": "Run",
+    "Application.Exercicio5.executor": "Run",
+    "Application.Exercicio6.executor": "Run",
     "Application.exercicio3.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
