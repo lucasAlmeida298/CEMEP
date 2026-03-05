@@ -1,1 +1,1 @@
-Materia BD II, uso SQL
+Materia BD II, uso do SQL
