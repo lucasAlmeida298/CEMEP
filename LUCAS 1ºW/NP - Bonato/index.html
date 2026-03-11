@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>MindLex</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Fonte Montserrat -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+  <link href="MindLex.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- CORTINA DE ENTRADA -->
+  <div id="cortina">
+    <div class="cortina-content">
+      <div class="cortina-logo">
+        <img src="logo.png" alt="Logo Mindlex">
+      </div>
+      <div class="cortina-title">MindLex</div>
+      <div class="cortina-sub">Venha aprender se divertindo</div>
+      <button class="cortina-btn" onclick="fecharCortina()">Entrar</button>
+    </div>
+    <div class="cortina-waves">
+      <svg viewBox="0 0 1440 320" width="100%" height="100%" preserveAspectRatio="none">
+        <defs>
+          <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#7c3aed" />
+            <stop offset="25%" stop-color="#f472b6" />
+            <stop offset="50%" stop-color="#38bdf8" />
+            <stop offset="100%" stop-color="#2dd4bf" />
+          </linearGradient>
+        </defs>
+        <path id="onda1" fill="url(#grad1)" fill-opacity="0.8"></path>
+        <path id="onda2" fill="url(#grad1)" fill-opacity="0.5"></path>
+        <path id="onda3" fill="url(#grad1)" fill-opacity="0.3"></path>
+      </svg>
+    </div>
+  </div>
+
+  <!-- SEU SITE NORMAL ABAIXO -->
+  <header>
+    <img src="logo.png" alt="Logo Mindlex">
+  </header>
+  <nav>
+    <a onclick="openTab('inicio', event)" class="active">Início</a>
+    <a onclick="openTab('jogos', event)">Jogos</a>
+    <a onclick="openTab('historia', event)">História</a>
+    <a onclick="openTab('contato', event)">Contato</a>
+  </nav>
+  <main>
+    <!-- Aba Início -->
+    <section id="inicio" class="tab-content active montserrat">
+      <h2>Bem-vindo ao Mindlex</h2>
+      <p style="text-align:center">Plataforma de apoio à dislexia com atividades educativas e terapêuticas.</p>
+      <h3>O que é Dislexia?</h3>
+      <p>Dislexia é uma perturbação da aprendizagem caracterizada pela dificuldade de leitura,
+        <br>apesar da inteligência da pessoa ser normal. A perturbação afeta as pessoas em diferentes graus. Os
+        principais sintomas são dificuldades em pronunciar corretamente as palavras, em ler rapidamente, em escrever
+        palavras à mão, em subvocalizar palavras, em pronunciar corretamente palavras ao ler em voz alta e em
+        compreender aquilo que se está a ler. Em muitos casos estas dificuldades começam-se a notar na escola. Nos casos
+        em que a pessoa anteriormente conseguia ler sem dificuldade, mas em determinado momento perde essa capacidade, a
+        perturbação denomina-se alexia. Estas dificuldades são involuntárias e as pessoas com esta perturbação
+        demonstram um desejo de aprendizagem normal.
+      </p>
+      <h3>Causas</h3>
+      <p>Acredita-se que a dislexia seja causada tanto por fatores genéticos como ambientais. Em alguns casos a doença é
+        familiar. É frequente ocorrer em pessoas com perturbação de hiperatividade com défice de atenção (PHDA) e está
+        associada a dificuldades semelhantes com números. A perturbação pode também ter início na vida adulta em
+        consequência de um traumatismo cranioencefálico, de um acidente vascular cerebral ou de demência. Os mecanismos
+        subjacentes da dislexia envolvem problemas com o processamento da linguagem pelo cérebro. O diagnóstico de
+        dislexia é realizado com recurso a uma série de exames que avaliam a capacidade de memorização, dicção, visão e
+        leitura. A dislexia é distinta das dificuldades de leitura causadas por incapacidade visual ou por ensino
+        insuficiente.</p>
+      <h3>Tratamento</h3>
+      <p>O tratamento consiste em ajustar os métodos de ensino de forma a corresponder às necessidades da pessoa. Embora
+        isto não constitua uma cura para o problema subjacente, pode diminuir o grau dos sintomas. Os tratamentos
+        focados na visão não são eficazes. A dislexia é a mais comum perturbação da aprendizagem e ocorre em todas as
+        regiões do mundo. Afeta entre 3% e 7% da população mundial, embora até 20% das pessoas possam apresentar algum
+        grau dos sintomas. Embora a dislexia seja diagnosticada com maior frequência em homens, tem sido sugerido que
+        afeta homens e mulheres de igual forma. Tem também sido proposto que a dislexia seja melhor descrita como uma
+        diferente forma de aprendizagem, apresentando tanto vantagens como desvantagens.</p>
+    </section>
+    <!-- Aba Jogos -->
+    <section id="jogos" class="tab-content montserrat">
+      <h2>Jogos</h2>
+      <div class="cards">
+        <!-- Jogo da Memória -->
+        <div class="card" tabindex="0">
+          <img src="https://img.icons8.com/?size=100&id=pcD8bVCCf7dC&format=png&color=000000" alt="Jogo da Memória">
+          <h3>Jogo da Memória</h3>
+          <p>Encontre os pares de cartas iguais.</p>
+          <div class="desc-maior">
+            Este jogo ajuda no reconhecimento visual e na concentração, associando palavras e imagens.
+          </div>
+          <button class="btn-jogar" onclick="abrirJogo('memoria')">Jogar</button>
+        </div>
+        <!-- Quebra-Cabeça -->
+        <div class="card" tabindex="0">
+          <img src="https://img.icons8.com/?size=100&id=12782&format=png&color=000000" alt="Quebra-Cabeça">
+          <h3>Quebra-Cabeça</h3>
+          <p>Monte as peças para formar a imagem.</p>
+          <div class="desc-maior">
+            Reforça a percepção visual, raciocínio lógico e coordenação motora.
+          </div>
+          <button class="btn-jogar" onclick="abrirJogo('puzzle')">Jogar</button>
+        </div>
+        <!-- Escrever a Imagem -->
+        <div class="card" tabindex="0">
+          <img src="https://img.icons8.com/color/96/000000/pencil-tip.png" alt="Escrever a Imagem">
+          <h3>Escrever a Imagem</h3>
+          <p>Veja a imagem e escreva o nome correto.</p>
+          <div class="desc-maior">
+            Desenvolve habilidades de escrita e leitura, reforçando a relação entre imagem e palavra.
+          </div>
+          <button class="btn-jogar" onclick="abrirJogo('escrever')">Jogar</button>
+        </div>
+        <!-- Arraste a Letra -->
+        <div class="card" tabindex="0">
+          <img src="https://img.icons8.com/color/96/000000/abc.png" alt="Arraste a Letra">
+          <h3>Arraste a Letra</h3>
+          <p>Arraste a letra correta para completar a palavra da imagem.</p>
+          <div class="desc-maior">
+            Exercita ortografia, associação e coordenação motora.
+          </div>
+          <button class="btn-jogar" onclick="abrirJogo('arraste')">Jogar</button>
+        </div>
+        <!-- Modais dos jogos -->
+        <div id="modal-memoria" class="game-modal">
+          <div class="game-content">
+            <button class="close-btn" onclick="fecharJogo()">&times;</button>
+            <h3 style="color:var(--roxo);">Jogo da Memória</h3>
+            <p>Encontre todos os pares de cartas iguais!</p>
+            <div class="memory-board" id="memory-board"></div>
+            <div id="memory-message" style="font-weight:bold;color:var(--roxo);margin-top:10px;"></div>
+            <div class="game-actions">
+              <button onclick="reiniciarJogo('memoria')">Jogar novamente</button>
+              <button onclick="fecharJogo()">Menu inicial</button>
+            </div>
+          </div>
+        </div>
+        <div id="modal-puzzle" class="game-modal">
+          <div class="game-content">
+            <button class="close-btn" onclick="fecharJogo()">&times;</button>
+            <h3 style="color:var(--roxo);">Quebra-Cabeça</h3>
+            <p>Arraste as peças para montar a imagem!</p>
+            <div class="puzzle-board" id="puzzle-board"></div>
+            <div id="puzzle-message" style="font-weight:bold;color:var(--roxo);margin-top:10px;"></div>
+            <div class="game-actions">
+              <button onclick="reiniciarJogo('puzzle')">Jogar novamente</button>
+              <button onclick="fecharJogo()">Menu inicial</button>
+            </div>
+          </div>
+        </div>
+        <div id="modal-escrever" class="game-modal">
+          <div class="game-content">
+            <button class="close-btn" onclick="fecharJogo()">&times;</button>
+            <h3 style="color:var(--roxo);">Escrever a Imagem</h3>
+            <p>Veja a imagem e escreva o nome correto!</p>
+            <div class="write-img-game">
+              <img id="write-img" src="https://img.icons8.com/color/96/000000/apple--v1.png" alt="Imagem para escrever">
+              <input type="text" id="write-input" placeholder="Digite o nome da imagem">
+              <button onclick="checkWriteImg()">Verificar</button>
+              <div class="result" id="write-result"></div>
+            </div>
+            <div class="game-actions">
+              <button onclick="reiniciarJogo('escrever')">Jogar novamente</button>
+              <button onclick="fecharJogo()">Menu inicial</button>
+            </div>
+          </div>
+        </div>
+        <div id="modal-arraste" class="game-modal">
+          <div class="game-content">
+            <button class="close-btn" onclick="fecharJogo()">&times;</button>
+            <h3 style="color:var(--roxo);">Arraste a Letra</h3>
+            <div class="drag-letter-game">
+              <img id="drag-img" src="" alt="Imagem para completar"
+                style="width:120px;height:120px;margin-bottom:10px;">
+              <div id="drag-word" style="font-size:2em;margin-bottom:18px;"></div>
+              <div id="drag-options" style="display:flex;gap:12px;justify-content:center;margin-bottom:18px;"></div>
+              <div class="result" id="drag-result"></div>
+            </div>
+            <div class="game-actions">
+              <button onclick="reiniciarJogo('arraste')">Jogar novamente</button>
+              <button onclick="fecharJogo()">Menu inicial</button>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- Aba História -->
+    <section id="historia" class="tab-content montserrat">
+      <h2>Nossa História</h2>
+      <p style="text-align:center">O Mindlex nasceu com o propósito de oferecer suporte gratuito a pessoas com dislexia,
+        promovendo inclusão e aprendizado acessível.</p>
+      <p style="text-align:center">Inicialmente nosso professor Rafael Bonato do CEMEP propôs o começo de um projeto de
+        iniciação científica, no princípio não sabíamos o que fazer, mas surgiu-se uma ideia...
+        <br>Um dos integrantes de nosso grupo (Davi) tem um irmão com dificuldades fonoaudiólogas que precisa fazer
+        consultas para tratar desta dificuldade. Pensando nisto...
+      </p>
+    </section>
+    <!-- Aba Contato -->
+    <section id="contato" class="tab-content">
+      <h2>Contato</h2>
+      <p style="text-align:center">Entre em contato pelo e-mail: <strong><a
+            href="mailto:contato@mindlex.com">contato@mindlex.com</a></strong></p>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 Mindlex | Desenvolvido por: Luigi Michilin | Davi André | Lucas Almeida
+  </footer>
+  <script src="MindLex.js"></script>
+</body>
+
+</html>

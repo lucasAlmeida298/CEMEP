@@ -1,0 +1,18 @@
+// Programa desenvolvido por Lucas Almeida e Mateus Chaim - 1ºW
+/* Forneça o resultado da hipotenusa^2=cateto1^2+cateto2^2 
+(SALVAR COMO HIPOTENUSA)*/
+#include <stdio.h>
+#include <locale.h>
+#include <math.h>
+main ()
+{
+	setlocale (LC_ALL, "Portuguese");
+	float r, ct, cr;
+	printf ("Digite o valor do primeiro cateto: ");
+	scanf ("%f", &ct);
+	printf ("Digite o valor do segundo cateto: ");
+	scanf ("%f", &cr);
+	
+	r=pow(ct,2)+pow(cr,2);
+	printf ("A soma dos catetos ao quadrado é: %.1f", r);
+}
