@@ -42,7 +42,7 @@ namespace calculadora
             this.btnlimpar = new System.Windows.Forms.Button();
             this.btnsair = new System.Windows.Forms.Button();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.lbltexto3 = new System.Windows.Forms.Label();
+            this.lblResultado = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lbltexto1
@@ -96,6 +96,7 @@ namespace calculadora
             this.btnsoma.TabIndex = 4;
             this.toolTip1.SetToolTip(this.btnsoma, "Soma");
             this.btnsoma.UseVisualStyleBackColor = true;
+            this.btnsoma.Click += new System.EventHandler(this.btnsoma_Click);
             // 
             // btndivisao
             // 
@@ -117,6 +118,7 @@ namespace calculadora
             this.btnmultiplicacao.TabIndex = 6;
             this.toolTip1.SetToolTip(this.btnmultiplicacao, "Multiplicação");
             this.btnmultiplicacao.UseVisualStyleBackColor = true;
+            this.btnmultiplicacao.Click += new System.EventHandler(this.btnmultiplicacao_Click);
             // 
             // btnsubtracao
             // 
@@ -127,6 +129,7 @@ namespace calculadora
             this.btnsubtracao.TabIndex = 7;
             this.toolTip1.SetToolTip(this.btnsubtracao, "Subtração");
             this.btnsubtracao.UseVisualStyleBackColor = true;
+            this.btnsubtracao.Click += new System.EventHandler(this.btnsubtracao_Click);
             // 
             // btnlimpar
             // 
@@ -137,6 +140,7 @@ namespace calculadora
             this.btnlimpar.TabIndex = 8;
             this.toolTip1.SetToolTip(this.btnlimpar, "Limpar");
             this.btnlimpar.UseVisualStyleBackColor = true;
+            this.btnlimpar.Click += new System.EventHandler(this.btnlimpar_Click);
             // 
             // btnsair
             // 
@@ -153,26 +157,21 @@ namespace calculadora
             // 
             this.toolTip1.ToolTipTitle = "Calculadora";
             // 
-            // lbltexto3
+            // lblResultado
             // 
-            this.lbltexto3.AutoSize = true;
-            this.lbltexto3.Font = new System.Drawing.Font("Franklin Gothic Demi", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbltexto3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbltexto3.Location = new System.Drawing.Point(72, 270);
-            this.lbltexto3.Name = "lbltexto3";
-            this.lbltexto3.Size = new System.Drawing.Size(201, 24);
-            this.lbltexto3.TabIndex = 10;
-            this.lbltexto3.Text = "Digite o segundo valor:";
-            this.lbltexto3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lbltexto3.Click += new System.EventHandler(this.label1_Click_1);
+            this.lblResultado.AutoSize = true;
+            this.lblResultado.Location = new System.Drawing.Point(144, 303);
+            this.lblResultado.Name = "lblResultado";
+            this.lblResultado.Size = new System.Drawing.Size(0, 13);
+            this.lblResultado.TabIndex = 10;
             // 
             // frmCalculadora
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkCyan;
-            this.ClientSize = new System.Drawing.Size(345, 450);
-            this.Controls.Add(this.lbltexto3);
+            this.ClientSize = new System.Drawing.Size(335, 437);
+            this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.btnsair);
             this.Controls.Add(this.btnlimpar);
             this.Controls.Add(this.btnsubtracao);
@@ -187,7 +186,8 @@ namespace calculadora
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmCalculadora";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Calculadora";
+            this.Text = " ";
+            this.Load += new System.EventHandler(this.frmCalculadora_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -206,7 +206,7 @@ namespace calculadora
         private System.Windows.Forms.Button btnlimpar;
         private System.Windows.Forms.Button btnsair;
         private System.Windows.Forms.ToolTip toolTip1;
-        private System.Windows.Forms.Label lbltexto3;
+        private System.Windows.Forms.Label lblResultado;
     }
 }
 

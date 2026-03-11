@@ -1,0 +1,10 @@
+C:\Users\doc\source\repos\CalculoRaizePotencia\CalculoRaizePotencia\bin\Debug\CalculoRaizePotencia.exe.config
+C:\Users\doc\source\repos\CalculoRaizePotencia\CalculoRaizePotencia\bin\Debug\CalculoRaizePotencia.exe
+C:\Users\doc\source\repos\CalculoRaizePotencia\CalculoRaizePotencia\bin\Debug\CalculoRaizePotencia.pdb
+C:\Users\doc\source\repos\CalculoRaizePotencia\CalculoRaizePotencia\obj\Debug\CalculoRaizePotencia.csproj.AssemblyReference.cache
+C:\Users\doc\source\repos\CalculoRaizePotencia\CalculoRaizePotencia\obj\Debug\CalculoRaizePotencia.Form1.resources
+C:\Users\doc\source\repos\CalculoRaizePotencia\CalculoRaizePotencia\obj\Debug\CalculoRaizePotencia.Properties.Resources.resources
+C:\Users\doc\source\repos\CalculoRaizePotencia\CalculoRaizePotencia\obj\Debug\CalculoRaizePotencia.csproj.GenerateResource.cache
+C:\Users\doc\source\repos\CalculoRaizePotencia\CalculoRaizePotencia\obj\Debug\CalculoRaizePotencia.csproj.CoreCompileInputs.cache
+C:\Users\doc\source\repos\CalculoRaizePotencia\CalculoRaizePotencia\obj\Debug\CalculoRaizePotencia.exe
+C:\Users\doc\source\repos\CalculoRaizePotencia\CalculoRaizePotencia\obj\Debug\CalculoRaizePotencia.pdb

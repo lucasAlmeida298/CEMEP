@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.36324.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoRaizePotencia", "CalculoRaizePotencia\CalculoRaizePotencia.csproj", "{B4431A77-A30F-41BD-A86E-814BA9D3BF6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4431A77-A30F-41BD-A86E-814BA9D3BF6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4431A77-A30F-41BD-A86E-814BA9D3BF6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4431A77-A30F-41BD-A86E-814BA9D3BF6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4431A77-A30F-41BD-A86E-814BA9D3BF6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7245E62C-C4C9-4C22-8770-7406C75A3144}
+	EndGlobalSection
+EndGlobal
