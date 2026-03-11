@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    background: #253f70;
+    background: radial-gradient(circle, rgba(37, 63, 112, 1) 0%, rgba(11, 30, 63, 1) 100%);
+}
+
+
+.titulo {
+    color: #FFD700;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+
+.zoom-img {
+    display: inline-block;
+    height: auto;
+    width: 300px;
+    border: 10px solid #8B0000;
+    cursor: pointer;
+    transition: transform 0.3s ease,
+        border-color 0.3s ease;
+}
+
+.zoom-img:hover {
+    transform: scale(1.1);
+    border-color: #FFD700;
+}
+
+#supermanlogo {
+    height: 350px;
+    width: 350px;
+}

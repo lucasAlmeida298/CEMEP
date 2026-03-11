@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BMW</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      text-align: center;
+      background-image: url(polotno-removebg-preview.png);
+      background-repeat: no-repeat;
+      background-size: 1900px 900px;
+    }
+
+    
+    .formatacao-img {
+      text-align: center;    
+      margin: 20px auto 10px;  
+    }
+
+    
+    .zoom-img {
+      display: inline-block;          
+      vertical-align: top;           
+      width: 200px;
+      height: auto;
+      margin: 0 10px;               
+      border: 10px solid #464a4e;
+      transition: transform 0.3s ease,
+                  border-color 0.3s ease;
+    }
+
+    .zoom-img:hover {
+      transform: scale(1.1);
+      border-color: #007BFF;
+    }
+
+    .bebas-neue-regular {
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 500%;
+        }
+        .roboto-condensed {
+        font-family: "Roboto Condensed", sans-serif;
+        font-size: 200%;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+        
+        }
+
+  </style>
+</head>
+<body>
+  <img src="bmw.png" alt="logo bmw" height="230" width="410">
+
+  <h1 class="bebas-neue-regular">BMW X6</h1>
+
+  <div class="formatacao-img">
+    <img src="modelo1.jpg" class="zoom-img" alt="modelo 1 bmw">
+    <img src="modelo2.jpg" class="zoom-img" alt="modelo 2 bmw">
+    <img src="modelo3.jpg" class="zoom-img" alt="modelo 3 bmw">
+    <img src="modelo5.jpg" class="zoom-img" alt="modelo 4 bmw">
+  </div>
+  <h2 class="roboto-condensed">Explore os modelos Off-Road!</h2>
+  <div class="formatacao-img">
+        <img src="offroad1.jpg" class="zoom-img" alt="modelo 1 bmw">
+        <img src="offroad2.jpg" class="zoom-img" alt="modelo 2 bmw">
+        <img src="offroad3.jpg" class="zoom-img" alt="modelo 3 bmw">
+        <img src="offroad4.jpg" class="zoom-img" alt="modelo 4 bmw">
+      </div>
+
+      <div class="formatacao-img">
+        <img src="offroad5.jpg" class="zoom-img" alt="modelo 1 bmw">
+        <img src="offroad6.jpg" class="zoom-img" alt="modelo 2 bmw">
+      </div>
+</body>
+</html>
