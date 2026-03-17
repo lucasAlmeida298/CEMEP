@@ -18,3 +18,13 @@ C:\Users\doc\Desktop\1ºBimestre\calculadora\calculadora\obj\Debug\calculadora.f
 C:\Users\doc\Desktop\1ºBimestre\calculadora\calculadora\obj\Debug\calculadora.Properties.Resources.resources
 C:\Users\doc\Desktop\1ºBimestre\calculadora\calculadora\obj\Debug\calculadora.csproj.GenerateResource.cache
 C:\Users\doc\Desktop\1ºBimestre\calculadora\calculadora\obj\Debug\calculadora.csproj.CoreCompileInputs.cache
+C:\Users\doc\Desktop\TPV\calculadora\calculadora\obj\Debug\calculadora.csproj.AssemblyReference.cache
+C:\Users\doc\Desktop\TPV\calculadora\calculadora\obj\Debug\calculadora.exe
+C:\Users\doc\Desktop\TPV\calculadora\calculadora\obj\Debug\calculadora.pdb
+C:\Users\doc\Desktop\TPV\calculadora\calculadora\bin\Debug\calculadora.exe.config
+C:\Users\doc\Desktop\TPV\calculadora\calculadora\bin\Debug\calculadora.exe
+C:\Users\doc\Desktop\TPV\calculadora\calculadora\bin\Debug\calculadora.pdb
+C:\Users\doc\Desktop\TPV\calculadora\calculadora\obj\Debug\calculadora.frmCalculadora.resources
+C:\Users\doc\Desktop\TPV\calculadora\calculadora\obj\Debug\calculadora.Properties.Resources.resources
+C:\Users\doc\Desktop\TPV\calculadora\calculadora\obj\Debug\calculadora.csproj.GenerateResource.cache
+C:\Users\doc\Desktop\TPV\calculadora\calculadora\obj\Debug\calculadora.csproj.CoreCompileInputs.cache

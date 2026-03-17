@@ -1,0 +1,10 @@
+C:\Users\doc\Desktop\TPV\lucas_Media\lucas_Media\bin\Debug\lucas_Media.exe.config
+C:\Users\doc\Desktop\TPV\lucas_Media\lucas_Media\bin\Debug\lucas_Media.exe
+C:\Users\doc\Desktop\TPV\lucas_Media\lucas_Media\bin\Debug\lucas_Media.pdb
+C:\Users\doc\Desktop\TPV\lucas_Media\lucas_Media\obj\Debug\lucas_Media.csproj.AssemblyReference.cache
+C:\Users\doc\Desktop\TPV\lucas_Media\lucas_Media\obj\Debug\lucas_Media.Properties.Resources.resources
+C:\Users\doc\Desktop\TPV\lucas_Media\lucas_Media\obj\Debug\lucas_Media.csproj.GenerateResource.cache
+C:\Users\doc\Desktop\TPV\lucas_Media\lucas_Media\obj\Debug\lucas_Media.csproj.CoreCompileInputs.cache
+C:\Users\doc\Desktop\TPV\lucas_Media\lucas_Media\obj\Debug\lucas_Media.exe
+C:\Users\doc\Desktop\TPV\lucas_Media\lucas_Media\obj\Debug\lucas_Media.pdb
+C:\Users\doc\Desktop\TPV\lucas_Media\lucas_Media\obj\Debug\lucas_Media.txtmedia.resources

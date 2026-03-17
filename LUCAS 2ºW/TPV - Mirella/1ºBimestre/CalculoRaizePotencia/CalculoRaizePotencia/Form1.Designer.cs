@@ -29,6 +29,7 @@ namespace CalculoRaizePotencia
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.lbl1 = new System.Windows.Forms.Label();
             this.txtn1 = new System.Windows.Forms.TextBox();
             this.lbl2 = new System.Windows.Forms.Label();
@@ -163,9 +164,11 @@ namespace CalculoRaizePotencia
             this.Controls.Add(this.txtn1);
             this.Controls.Add(this.lbl1);
             this.ForeColor = System.Drawing.Color.Blue;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

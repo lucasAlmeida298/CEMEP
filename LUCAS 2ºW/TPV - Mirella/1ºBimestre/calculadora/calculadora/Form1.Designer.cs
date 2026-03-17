@@ -43,6 +43,7 @@ namespace calculadora
             this.btnsair = new System.Windows.Forms.Button();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.lblResultado = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lbltexto1
@@ -160,10 +161,22 @@ namespace calculadora
             // lblResultado
             // 
             this.lblResultado.AutoSize = true;
+            this.lblResultado.BackColor = System.Drawing.Color.White;
+            this.lblResultado.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResultado.Location = new System.Drawing.Point(144, 303);
             this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(0, 13);
+            this.lblResultado.Size = new System.Drawing.Size(0, 23);
             this.lblResultado.TabIndex = 10;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.White;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(175, 303);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(0, 23);
+            this.label1.TabIndex = 10;
             // 
             // frmCalculadora
             // 
@@ -171,6 +184,7 @@ namespace calculadora
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkCyan;
             this.ClientSize = new System.Drawing.Size(335, 437);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.btnsair);
             this.Controls.Add(this.btnlimpar);
@@ -207,6 +221,7 @@ namespace calculadora
         private System.Windows.Forms.Button btnsair;
         private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.Label lblResultado;
+        private System.Windows.Forms.Label label1;
     }
 }
 
