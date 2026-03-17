@@ -19,7 +19,24 @@ namespace CalculoRaizePotencia
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {
+            double a, r, p;
+            a = Convert.ToDouble(txtn1.Text);
+            r = Math.Sqrt(a);
+            txtR.Text = Convert.ToString(r);
+            p = Math.Pow(a, 2);
+            txtP.Text = Convert.ToString(p);
+        }
 
+        private void btnsair_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void btnlimpar_Click(object sender, EventArgs e)
+        {
+            txtn1.Clear();
+            txtP.Clear();
+            txtR.Clear();
         }
     }
 }

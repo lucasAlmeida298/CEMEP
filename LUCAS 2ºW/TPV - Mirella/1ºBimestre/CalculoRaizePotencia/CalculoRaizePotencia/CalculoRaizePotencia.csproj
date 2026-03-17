@@ -83,5 +83,8 @@
   <ItemGroup>
     <None Include="Resources\FACE02.ICO" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GRAPH03.ICO" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
