@@ -1,0 +1,10 @@
+C:\Users\doc\source\repos\Lucas_Teorema\Lucas_Teorema\bin\Debug\Lucas_Teorema.exe.config
+C:\Users\doc\source\repos\Lucas_Teorema\Lucas_Teorema\bin\Debug\Lucas_Teorema.exe
+C:\Users\doc\source\repos\Lucas_Teorema\Lucas_Teorema\bin\Debug\Lucas_Teorema.pdb
+C:\Users\doc\source\repos\Lucas_Teorema\Lucas_Teorema\obj\Debug\Lucas_Teorema.csproj.AssemblyReference.cache
+C:\Users\doc\source\repos\Lucas_Teorema\Lucas_Teorema\obj\Debug\Lucas_Teorema.frm1.resources
+C:\Users\doc\source\repos\Lucas_Teorema\Lucas_Teorema\obj\Debug\Lucas_Teorema.Properties.Resources.resources
+C:\Users\doc\source\repos\Lucas_Teorema\Lucas_Teorema\obj\Debug\Lucas_Teorema.csproj.GenerateResource.cache
+C:\Users\doc\source\repos\Lucas_Teorema\Lucas_Teorema\obj\Debug\Lucas_Teorema.csproj.CoreCompileInputs.cache
+C:\Users\doc\source\repos\Lucas_Teorema\Lucas_Teorema\obj\Debug\Lucas_Teorema.exe
+C:\Users\doc\source\repos\Lucas_Teorema\Lucas_Teorema\obj\Debug\Lucas_Teorema.pdb
