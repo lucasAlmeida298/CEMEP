@@ -54,28 +54,29 @@ if verEstudante==1:
     print("Você é estudante")
 else:
     print("Você não é estudante")
-match diaSemana:#Pesquisei como funcionava o "switch case" no python
-    case 1:
-        print("O dia da semana informado é segunda")
-    case 2:
-        print("O dia da semana informado é terça")
-    case 3:
-        print("O dia da semana informado é quarta")
-    case 4:
-        print("O dia da semana informado é quinta")
-    case 5:
-        print("O dia da semana informado é sexta")
-    case 6:
-        print("O dia da semana informado é sábado")
-    case 7:
-        print("O dia da semana informado é domingo")
-    case _:
-        print("O dia da semana informado não existe")
+
+if diaSemana==1:
+    print("O dia da semana informado é segunda")
+elif diaSemana==2:
+    print("O dia da semana informado é terça")
+elif diaSemana==3:
+    print("O dia da semana informado é quarta")
+elif diaSemana==4:
+    print("O dia da semana informado é quinta")
+elif diaSemana==5:
+    print("O dia da semana informado é sexta")
+elif diaSemana==6:
+    print("O dia da semana informado é sábado")
+elif diaSemana==7:
+    print("O dia da semana informado é domingo")
+else:
+    print("O dia da semana informado não existe")
+
 if ingresso==30:
     print("O tipo de ingresso é inteira")
 else:
     print("O tipo de ingresso é meia")
-print("O valor final a pagar é: R$ ", ingresso)
+print(f"O valor final a pagar é: R$ {ingresso:.2f}")
 
 #rodapé
 print("-"*80)

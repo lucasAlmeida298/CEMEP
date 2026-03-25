@@ -13,3 +13,28 @@ Mais de 6 horas R$ 15,00
 O programa deve mostrar:
  o tempo informado
  o valor total a ser pago"""
+#cabeçalho
+print("-"*80)
+print("Exercício 3".center(80))
+print("-"*80)
+
+#entrada
+tempo = float(input("Informe quantas horas você permanceu no estacionamento: "))
+
+#saída
+print(f"O tempo de permanência no estacionamento foi de {tempo:.2f} horas")
+if tempo<=1:
+    print("O valor total a ser pago é de R$ 5,00")
+elif tempo>1 and tempo<=3:
+    print("O valor total a ser pago é de R$ 8,00")
+elif tempo>3 and tempo<=6:
+    print("O valor total a ser pago é de R$ 12,00")
+elif tempo>6:
+    print("O valor total a ser pago é de R$ 15,00")
+else:
+    print("Tempo informado inválido")
+
+#rodapé
+print("-"*80)
+print("Desenvolvido por Lucas".center(80))
+print("-"*80)
