@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora</title>
+    <title>Lanchonete Quero Mais</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
@@ -25,7 +25,7 @@
     <table border="1" align="center" width="50%">
         <tr>
             <td align="center">
-                <h1>Exercício 1</h1>
+                <h1>Exercício 4</h1>
             </td>
         </tr>
         <tr>
@@ -36,16 +36,19 @@
         <tr>
             <td align="center" class="php">
                 <?php
-                $operacao = $_POST["operacao"];
-                $valor1 = $_POST["n1"];
-                $valor2 = $_POST["n2"];
+                $codigo = $_POST["codigo"];
+                $quantidade = $_POST["quantidade"];
 
-                print("Os valores digitados foram " . $valor1 . " e " . $valor2);
+                
 
-                switch ($operacao) {
-                    case 1:
-                        echo "<br>A operação escolhida foi soma";
-                        print("<br>A soma dos seus números é " . ($valor1 + $valor2));
+                switch ($codigo) {
+                    case 100:
+                        print("Valor a pagar: R$ ". 10*$quantidade);
+                        print("<br>Taxa de serviço: R$ " . (10*$quantidade)*0.10);
+                        print ("<br>Valor a pagar com taxa de serviço: R$ ". (10*$quantidade)*1.10);
+                        echo "<br>Código do produto: 100";
+                        echo "<br>Valor unitário: R$ 10,00";
+                        echo "<br>Produto adquirido: Cachorro Quente";
                         break;
                     case 2:
                         echo "<br>A operação escolhida foi subtração";
