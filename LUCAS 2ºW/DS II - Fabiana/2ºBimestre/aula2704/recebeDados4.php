@@ -15,6 +15,7 @@
         h4 {
             font-family: "Ubuntu Sans", sans-serif;
         }
+
         .php {
             font-family: "Ubuntu Sans", sans-serif;
         }
@@ -39,31 +40,57 @@
                 $codigo = $_POST["codigo"];
                 $quantidade = $_POST["quantidade"];
 
-                
+
 
                 switch ($codigo) {
                     case 100:
-                        print("Valor a pagar: R$ ". 10*$quantidade);
-                        print("<br>Taxa de serviço: R$ " . (10*$quantidade)*0.10);
-                        print ("<br>Valor a pagar com taxa de serviço: R$ ". (10*$quantidade)*1.10);
+                        print("Valor a pagar: R$ " . 10 * $quantidade);
+                        print("<br>Taxa de serviço: R$ " . (10 * $quantidade) * 0.10);
+                        print("<br>Valor a pagar com taxa de serviço: R$ " . (10 * $quantidade) * 1.10);
                         echo "<br>Código do produto: 100";
                         echo "<br>Valor unitário: R$ 10,00";
                         echo "<br>Produto adquirido: Cachorro Quente";
                         break;
-                    case 2:
-                        echo "<br>A operação escolhida foi subtração";
-                        print("<br>A subtração dos seus números é " . ($valor1 - $valor2));
+                    case 101:
+                        print("Valor a pagar: R$ " . 12 * $quantidade);
+                        print("<br>Taxa de serviço: R$ " . (12 * $quantidade) * 0.10);
+                        print("<br>Valor a pagar com taxa de serviço: R$ " . (12 * $quantidade) * 1.10);
+                        echo "<br>Código do produto: 101";
+                        echo "<br>Valor unitário: R$ 12,00";
+                        echo "<br>Produto adquirido: Bauru Simples";
                         break;
-                    case 3:
-                        echo "<br>A operação escolhida foi divisão";
-                        print("<br>A divisão dos seus números é " . ($valor1 / $valor2));
+                    case 102:
+                        print("Valor a pagar: R$ " . 14 * $quantidade);
+                        print("<br>Taxa de serviço: R$ " . (14 * $quantidade) * 0.10);
+                        print("<br>Valor a pagar com taxa de serviço: R$ " . (14 * $quantidade) * 1.10);
+                        echo "<br>Código do produto: 102";
+                        echo "<br>Valor unitário: R$ 14,00";
+                        echo "<br>Produto adquirido: Bauru com Ovo";
                         break;
-                    case 4:
-                        echo "<br>A operação escolhida foi multiplicação";
-                        print("<br>A multiplicação dos seus números é " . ($valor1 * $valor2));
+                    case 103:
+                        print("Valor a pagar: R$ " . 15.50 * $quantidade);
+                        print("<br>Taxa de serviço: R$ " . (15.50 * $quantidade) * 0.10);
+                        print("<br>Valor a pagar com taxa de serviço: R$ " . (15.50 * $quantidade) * 1.10);
+                        echo "<br>Código do produto: 103";
+                        echo "<br>Valor unitário: R$ 15,50";
+                        echo "<br>Produto adquirido: Hamburguer";
                         break;
-                    default:
-                        echo "<br>Dado inválido";
+                    case 104:
+                        print("Valor a pagar: R$ " . 17.80 * $quantidade);
+                        print("<br>Taxa de serviço: R$ " . (17.80 * $quantidade) * 0.10);
+                        print("<br>Valor a pagar com taxa de serviço: R$ " . (17.80 * $quantidade) * 1.10);
+                        echo "<br>Código do produto: 104";
+                        echo "<br>Valor unitário: R$ 17,80";
+                        echo "<br>Produto adquirido: Chesseburguer";
+                        break;
+                    case 105:
+                        print("Valor a pagar: R$ " . 5 * $quantidade);
+                        print("<br>Taxa de serviço: R$ " . (5 * $quantidade) * 0.10);
+                        print("<br>Valor a pagar com taxa de serviço: R$ " . (5 * $quantidade) * 1.10);
+                        echo "<br>Código do produto: 105";
+                        echo "<br>Valor unitário: R$ 5,00";
+                        echo "<br>Produto adquirido: Refrigerante";
+                        break;
                 }
                 ?>
 
