@@ -12,7 +12,7 @@
     <table border="1" align="center" width="50%">
         <tr>
             <td>
-                <h1 align="center">Intercâmbio Estudantil - 25/05/2026</h1>
+                <h1 align="center">Intercâmbio Estudantil -Etapa 1/3</h1>
             </td>
         </tr>
         <tr>
