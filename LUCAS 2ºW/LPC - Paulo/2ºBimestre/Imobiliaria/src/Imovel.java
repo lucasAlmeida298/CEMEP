@@ -35,6 +35,6 @@ public class Imovel {
 
     @Override
     public String toString () {
-        return "Tipo: " + tipo + ", endereço: " + endereco + ", Preço: " +preco;
+        return "O imóvel está localizado em: " + endereco + "\nO preço do imóvel é de: ";
     }
 }

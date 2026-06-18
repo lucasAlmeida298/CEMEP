@@ -15,11 +15,12 @@ public class Usado extends Imovel {
     }
 
     public double calcularDesconto (){
-        return getPreco() * 0.80;
+        super.setPreco(getPreco()*0.80);
+        return getPreco();
     }
 
     @Override
     public String toString() {
-        return super.toString();
+        return super.toString() + calcularDesconto() + "\nO ano de construção do imóvel é: " + getAnoConstrucao();
     }
 }

@@ -15,11 +15,12 @@ public class Novo extends Imovel {
     }
 
     public double calculoAdicional () {
-        return getPreco() * 1.40;
+        super.setPreco(getPreco()*1.40);
+        return getPreco() ;
     }
 
     @Override
     public String toString() {
-        return super.toString();
+        return super.toString() + calculoAdicional() + "\nA construtora do imóvel é: " + getNomeConstrutora();
     }
 }

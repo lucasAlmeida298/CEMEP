@@ -10,14 +10,10 @@ public class Main {
         int opcao = in.nextInt();
 
         if (opcao==1) {
-            System.out.println("O imóvel está localizado em " + novo.getEndereco());
-            System.out.println("O preço do imóvel é de " + novo.calculoAdicional());
-            System.out.println("A construtora do imóvel é " + novo.getNomeConstrutora());
+            System.out.println(novo.toString());
         }
         else if (opcao==2) {
-            System.out.println("O imóvel está localizado em " + usado.getEndereco());
-            System.out.println("O preço do imóvel é de " + usado.calcularDesconto());
-            System.out.println("O ano de construção do imóvel é " + usado.getAnoConstrucao());
+            System.out.println(usado.toString());
         }
         else {
             System.out.println("DADO INVÁLIDO! Tente novamente!");
