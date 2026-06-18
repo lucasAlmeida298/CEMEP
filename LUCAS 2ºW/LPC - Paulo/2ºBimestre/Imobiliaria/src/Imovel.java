@@ -1,20 +1,12 @@
 public class Imovel {
-    private String tipo;
+    private int tipo;
     private String endereco;
-    private int preco;
+    private double preco;
 
-    public Imovel(String tipo, String endereco, int preco) {
+    public Imovel (int tipo, String endereco, double preco) {
         this.tipo = tipo;
         this.endereco = endereco;
         this.preco = preco;
-    }
-
-    public String getTipo() {
-        return tipo;
-    }
-
-    public void setTipo(String tipo) {
-        this.tipo = tipo;
     }
 
     public String getEndereco() {
@@ -25,20 +17,24 @@ public class Imovel {
         this.endereco = endereco;
     }
 
-    public int getPreco() {
+    public double getPreco() {
         return preco;
     }
 
-    public void setPreco(int preco) {
+    public void setPreco(double preco) {
         this.preco = preco;
     }
 
+    public int getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(int tipo) {
+        this.tipo = tipo;
+    }
+
     @Override
-    public String toString() {
-        return "Imovel{" +
-                "tipo='" + tipo + '\'' +
-                ", endereco='" + endereco + '\'' +
-                ", preco=" + preco +
-                '}';
+    public String toString () {
+        return "Tipo: " + tipo + ", endereço: " + endereco + ", Preço: " +preco;
     }
 }

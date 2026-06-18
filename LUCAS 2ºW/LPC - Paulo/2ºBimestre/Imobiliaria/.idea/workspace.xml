@@ -4,43 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="074b79fa-276a-4605-a2b5-56eabb725244" name="Changes" comment="" />
+    <list default="true" id="5e46c618-7420-49e5-bbce-81e8d97da914" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 1
 }]]></component>
-  <component name="ProjectId" id="3F0AAK0o2UvvsLSObYwExFPLLZI" />
+  <component name="ProjectId" id="3FJ8pA1p3oiuG9ZoqFnPXIeh8oA" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "inlay.hints"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\Imobiliaria\src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="074b79fa-276a-4605-a2b5-56eabb725244" name="Changes" comment="" />
-      <created>1781201470466</created>
+      <changelist id="5e46c618-7420-49e5-bbce-81e8d97da914" name="Changes" comment="" />
+      <created>1781781993349</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1781201470466</updated>
+      <updated>1781781993349</updated>
     </task>
     <servers />
   </component>

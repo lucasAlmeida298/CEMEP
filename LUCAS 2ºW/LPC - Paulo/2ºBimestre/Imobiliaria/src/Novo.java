@@ -1,16 +1,25 @@
 public class Novo extends Imovel {
-    private int anoDeConstrucao;
+    private String nomeConstrutora;
 
-    public Novo(String tipo, String endereco, int preco, int anoDeConstrucao) {
-        super(tipo, endereco, preco);
-        this.anoDeConstrucao = anoDeConstrucao;
+    public Novo (int tipo, String endereco, double preco, String nomeConstrutora) {
+        super(tipo,endereco,preco);
+        this.nomeConstrutora = nomeConstrutora;
     }
 
-    public int getAnoDeConstrucao() {
-        return anoDeConstrucao;
+    public String getNomeConstrutora() {
+        return nomeConstrutora;
     }
 
-    public void setAnoDeConstrucao(int anoDeConstrucao) {
-        this.anoDeConstrucao = anoDeConstrucao;
+    public void setNomeConstrutora(String nomeConstrutora) {
+        this.nomeConstrutora = nomeConstrutora;
+    }
+
+    public double calculoAdicional () {
+        return getPreco() * 1.40;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString();
     }
 }

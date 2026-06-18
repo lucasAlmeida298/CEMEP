@@ -1,16 +1,25 @@
 public class Usado extends Imovel {
-    private String nomeConstrutora;
+    private int anoConstrucao;
 
-    public Usado(String tipo, String endereco, int preco, String nomeConstrutora) {
-        super(tipo, endereco, preco);
-        this.nomeConstrutora = nomeConstrutora;
+    public Usado (int tipo, String endereco, double preco, int anoConstrucao) {
+        super(tipo,endereco,preco);
+        this.anoConstrucao = anoConstrucao;
     }
 
-    public String getNomeConstrutora() {
-        return nomeConstrutora;
+    public int getAnoConstrucao() {
+        return anoConstrucao;
     }
 
-    public void setNomeConstrutora(String nomeConstrutora) {
-        this.nomeConstrutora = nomeConstrutora;
+    public void setAnoConstrucao(int anoConstrucao) {
+        this.anoConstrucao = anoConstrucao;
+    }
+
+    public double calcularDesconto (){
+        return getPreco() * 0.80;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString();
     }
 }
