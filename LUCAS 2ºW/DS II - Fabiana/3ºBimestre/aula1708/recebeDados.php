@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cadastro de Alunos</title>
 </head>
 
 <body>
@@ -33,9 +33,33 @@
                 $nome = $_POST["nome"];
                 $nota1 = $_POST["nota1"];
                 $nota2 = $_POST["nota2"];
-                print("Nome: $nome");
-                print("<br>Nota 1: $nota1");
-                print("<br>Nota 2: $nota2");
+
+                function exibirDados($nome, $nota1, $nota2)
+                {
+                    print("Nome: $nome");
+                    print("<br>Nota 1: $nota1");
+                    print("<br>Nota 2: $nota2");
+                }
+
+                function calcularMedia($nota1, $nota2)
+                {
+                    $media = ($nota1 + $nota2) / 2;
+                    print("<br>Média: $media");
+                    if ($media >= 6 && $media <= 10) {
+                        echo "<br>Aprovado";
+                    } else if ($media < 6 && $media >= 0) {
+                        echo "<br>Reprovado";
+                    } else {
+                        echo "<br>Média inválida";
+                    }
+                }
+
+                exibirDados($nome, $nota1, $nota2);
+                calcularMedia($nota1, $nota2);
+
+
+
+
 
                 ?>
             </td>
