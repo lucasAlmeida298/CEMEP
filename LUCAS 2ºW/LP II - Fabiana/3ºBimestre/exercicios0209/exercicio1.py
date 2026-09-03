@@ -33,7 +33,7 @@ while (True):
 
     if (idade>maiorIdade):
         maiorIdade=idade
-    elif (idade<menorIdade):
+    if (idade<menorIdade):
         menorIdade=idade
 
     if (idade>=35 and idade<=60):
@@ -46,22 +46,23 @@ while (True):
         IdM+=idade
         countM+=1
     else:
-        print("Sexo inválido! Nenhum dado será registrado!")
+        print("Sexo informado inválido! Encerrando o programa!")
+        break
+
     
-    opcao = input("Deseja continuar? (S-Sim/N-Não): ").upper()
+    opcao = input("\nDeseja continuar? (S-Sim/N-Não): ").upper()
 
     if (opcao=='N'):
         break
 
 media=(percentIdade/(countF+countM))*100
 
-print(f"A média da idade do grupo é de {acumIdade/(countF+countM)}")
+print(f"\nA média da idade do grupo é de {acumIdade/(countF+countM)}")
 print(f"A maior idade do grupo é {maiorIdade} e a menor é {menorIdade}")
 print(f"A média das alturas das mulheres é {AltF/countF} metros")
 print(f"A média das idade dos homens é {IdM/countM} anos")
 print(f"A porcentagem de pessoas entre 35 e 60 anos é de {media}%")
 
-print("-"*80)
+print("\n-"*80)
 print("Desenvolvido por Lucas".center(80))
 print("-"*80)
-
