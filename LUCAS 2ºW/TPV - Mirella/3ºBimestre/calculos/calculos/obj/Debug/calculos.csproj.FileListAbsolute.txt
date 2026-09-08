@@ -1,0 +1,11 @@
+C:\Users\doc\Desktop\calculos\calculos\bin\Debug\calculos.exe.config
+C:\Users\doc\Desktop\calculos\calculos\bin\Debug\calculos.exe
+C:\Users\doc\Desktop\calculos\calculos\bin\Debug\calculos.pdb
+C:\Users\doc\Desktop\calculos\calculos\obj\Debug\calculos.csproj.AssemblyReference.cache
+C:\Users\doc\Desktop\calculos\calculos\obj\Debug\calculos.frmLogin.resources
+C:\Users\doc\Desktop\calculos\calculos\obj\Debug\calculos.Properties.Resources.resources
+C:\Users\doc\Desktop\calculos\calculos\obj\Debug\calculos.csproj.GenerateResource.cache
+C:\Users\doc\Desktop\calculos\calculos\obj\Debug\calculos.csproj.CoreCompileInputs.cache
+C:\Users\doc\Desktop\calculos\calculos\obj\Debug\calculos.exe
+C:\Users\doc\Desktop\calculos\calculos\obj\Debug\calculos.pdb
+C:\Users\doc\Desktop\calculos\calculos\obj\Debug\calculos.frmSplash.resources
