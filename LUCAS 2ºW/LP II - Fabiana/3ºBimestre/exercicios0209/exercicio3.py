@@ -12,12 +12,11 @@ o Valor a receber pelas compras a prazo, isto é, primeira
 parcela, sabendo que estas serão pagas em três vezes"""
 
 print("-"*80)
-print("Exercício 1".center(80))
+print("Exercício 3".center(80))
 print("-"*80)
 
 totalVista=0
 totalPrazo=0
-aReceber=0
 
 while (True):
     valorCompra=float(input("\nDigite o valor da Compra: "))

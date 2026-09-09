@@ -69,19 +69,30 @@ while (True):
     if opcao=='N':
         break
 
-percentHCA=(quantHCA/countM)*100
-percentFPV=(quantFPV/countF)*100
+percentFPV=0
+percentHCA=0
+
 
 print(f"\nA quantidade de pessoas do sexo feminino é: {countF}")
 print(f"A quantidade de pessoas do sexo masculino é: {countM}")
 print(f"A maior idade do grupo é: {maiorIdade}")
-print(f"A média de idade dos homens é de {idM/countM} anos")
-print(f"A média de idade das mulheres é de {idF/countF} anos")
+if countM>0:
+    print(f"A média de idade dos homens é de {idM/countM} anos")
+    percentHCA=(quantHCA/countM)*100
+else:
+    print(f"Não há homens suficiente para calcular a média de idade")
+
+if countF>0:
+    print(f"A média de idade das mulheres é de {idF/countF} anos")
+    percentFPV=(quantFPV/countF)*100
+else:
+    print(f"Não há mulheres suficiente para calcular a média de idade")
+
 print(f"A quantidade de mulheres que tem entre 18 e 35 anos, olhos verdes e cabelo loiro é: {quantF18e35}")
 print(f"A quantidade de pessoas com cabelos e olhos castanhos é: {quantCC}")
 print(f"A porcentagem de homens com cabelos castanhos e olhos azuis é de: {percentHCA}%")
-print(f"A porcentagem de mulheres com cabelos pretos e olhos verdes é de: {percentFPV}%")
+print(f"A porcentagem de mulheres com cabelos pretos e olhos verdes é de: {percentFPV}%\n")
 
-print("\n-"*80)
+print("-"*80)
 print("Desenvolvido por Lucas".center(80))
 print("-"*80)
