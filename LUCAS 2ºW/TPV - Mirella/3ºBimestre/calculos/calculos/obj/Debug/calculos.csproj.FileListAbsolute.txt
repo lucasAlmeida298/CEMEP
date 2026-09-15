@@ -9,3 +9,7 @@ C:\Users\doc\Desktop\calculos\calculos\obj\Debug\calculos.csproj.CoreCompileInpu
 C:\Users\doc\Desktop\calculos\calculos\obj\Debug\calculos.exe
 C:\Users\doc\Desktop\calculos\calculos\obj\Debug\calculos.pdb
 C:\Users\doc\Desktop\calculos\calculos\obj\Debug\calculos.frmSplash.resources
+C:\Users\doc\Desktop\calculos\calculos\obj\Debug\calculos.frmDesenvolvedor.resources
+C:\Users\doc\Desktop\calculos\calculos\obj\Debug\calculos.frmMenu.resources
+C:\Users\doc\Desktop\calculos\calculos\obj\Debug\calculos.salBruto.resources
+C:\Users\doc\Desktop\calculos\calculos\obj\Debug\calculos.Sistema.resources
