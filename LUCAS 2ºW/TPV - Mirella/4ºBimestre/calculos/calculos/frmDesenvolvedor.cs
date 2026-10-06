@@ -1,0 +1,87 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace calculos
+{
+    public partial class frmDesenvolvedor : Form
+    {
+        public frmDesenvolvedor()
+        {
+            InitializeComponent();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmDesenvolvedor_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
+
+        private void btnProximo_Click(object sender, EventArgs e)
+        {
+            Sistema sistema = new Sistema();
+            sistema.Show();
+            this.Hide();
+        }
+    }
+}
