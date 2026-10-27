@@ -86,8 +86,8 @@ namespace calculos
 
         private void salárioBrutoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            salBruto sal = new salBruto();
-            sal.Show();
+            salBruto salBruto = new salBruto();
+            salBruto.Show();
         }
 
         private void desenvolvedorToolStripMenuItem_Click(object sender, EventArgs e)
@@ -111,6 +111,12 @@ namespace calculos
         {
             tssData.Text = DateTime.Now.ToLongDateString();
             tssHora.Text = DateTime.Now.ToShortTimeString();
+        }
+
+        private void salárioLíquidoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            /*salLiquido salLiquido = new salLiquido();
+            salLiquido.Show();*/
         }
     }
 }

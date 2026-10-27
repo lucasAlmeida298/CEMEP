@@ -43,7 +43,7 @@ namespace calculos
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            if (txtUsername.Text=="Lucas" && txtPassword.Text=="Mirella")
+            if (txtUsername.Text=="Lucas" && txtPassword.Text=="123")
             {
                 //Instanciamento do form menu
                 frmMenu menu = new frmMenu();

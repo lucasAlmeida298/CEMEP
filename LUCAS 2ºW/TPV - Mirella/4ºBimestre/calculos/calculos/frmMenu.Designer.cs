@@ -157,20 +157,21 @@ namespace calculos
             // salárioBrutoToolStripMenuItem
             // 
             this.salárioBrutoToolStripMenuItem.Name = "salárioBrutoToolStripMenuItem";
-            this.salárioBrutoToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
+            this.salárioBrutoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.salárioBrutoToolStripMenuItem.Text = "Salário Bruto";
             this.salárioBrutoToolStripMenuItem.Click += new System.EventHandler(this.salárioBrutoToolStripMenuItem_Click);
             // 
             // salárioLíquidoToolStripMenuItem
             // 
             this.salárioLíquidoToolStripMenuItem.Name = "salárioLíquidoToolStripMenuItem";
-            this.salárioLíquidoToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
+            this.salárioLíquidoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.salárioLíquidoToolStripMenuItem.Text = "Salário Líquido";
+            this.salárioLíquidoToolStripMenuItem.Click += new System.EventHandler(this.salárioLíquidoToolStripMenuItem_Click);
             // 
             // impostoDeRendaToolStripMenuItem
             // 
             this.impostoDeRendaToolStripMenuItem.Name = "impostoDeRendaToolStripMenuItem";
-            this.impostoDeRendaToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
+            this.impostoDeRendaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.impostoDeRendaToolStripMenuItem.Text = "Imposto de Renda";
             // 
             // acessóriosToolStripMenuItem

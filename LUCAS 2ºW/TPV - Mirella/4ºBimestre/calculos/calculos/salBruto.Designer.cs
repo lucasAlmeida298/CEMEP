@@ -129,10 +129,12 @@ namespace calculos
             // 
             this.lblResultado.AutoSize = true;
             this.lblResultado.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResultado.Location = new System.Drawing.Point(217, 326);
+            this.lblResultado.Location = new System.Drawing.Point(208, 326);
             this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(0, 25);
+            this.lblResultado.Size = new System.Drawing.Size(66, 25);
             this.lblResultado.TabIndex = 24;
+            this.lblResultado.Text = "Valor";
+            this.lblResultado.Click += new System.EventHandler(this.lblResultado_Click);
             // 
             // btnLimpar
             // 
@@ -164,7 +166,7 @@ namespace calculos
             // 
             this.lblSal.AutoSize = true;
             this.lblSal.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSal.Location = new System.Drawing.Point(43, 326);
+            this.lblSal.Location = new System.Drawing.Point(38, 326);
             this.lblSal.Name = "lblSal";
             this.lblSal.Size = new System.Drawing.Size(174, 25);
             this.lblSal.TabIndex = 27;

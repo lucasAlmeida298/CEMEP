@@ -17,12 +17,13 @@ namespace calculos
         private void salBruto_Load(object sender, EventArgs e)
         {
             lblSal.Hide();
+            lblResultado.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            salLiquido salMinimo = new salLiquido();
-            salMinimo.Show();
+            salLiquido salLiquido = new salLiquido(lblResultado.Text);
+            salLiquido.Show();
             this.Hide();
         }
 
@@ -45,6 +46,11 @@ namespace calculos
                 txtHorasTrabalhadas.Clear();
                 txtHorasTrabalhadas.Focus();
             }
+        }
+
+        private void lblResultado_Click(object sender, EventArgs e)
+        {
+
         }
 
         public salBruto()
